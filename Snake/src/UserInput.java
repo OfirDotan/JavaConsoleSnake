@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class UserInput implements Runnable {
     @Override
     public void run() {

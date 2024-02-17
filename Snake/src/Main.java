@@ -5,11 +5,11 @@ import java.util.Random;
 
 public class Main {
     static boolean isGameOver;
+    //Right - 1, Up - 2, Left - 3, Down - 4
     public static int direction = 4;
 
     public static void main(String[] args) throws InterruptedException, IOException {
         isGameOver = false;
-        //Right - 1, Up - 2, Left - 3, Down - 4
         String [][] arr = new String[16][16];
         for (int i = 0; i < arr.length; i++){
             for (int j = 0; j < arr.length; j++){
@@ -17,6 +17,7 @@ public class Main {
             }
         }
         LinkedList<SnakePart> snake = new LinkedList<>();
+        //Building the snake
         snake.add(new SnakePart(8, 4));
         snake.add(new SnakePart(8, 3));
         snake.add(new SnakePart(8, 2));
