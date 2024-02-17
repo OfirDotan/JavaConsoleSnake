@@ -1,6 +1,7 @@
 public class SnakePart {
     private int x;
     private int y;
+
     public SnakePart(int x, int y){
         this.x = x;
         this.y = y;

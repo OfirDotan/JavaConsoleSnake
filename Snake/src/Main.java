@@ -17,6 +17,7 @@ public class Main {
             }
         }
         LinkedList<SnakePart> snake = new LinkedList<>();
+        //Building the snake
         snake.add(new SnakePart(8, 4));
         snake.add(new SnakePart(8, 3));
         snake.add(new SnakePart(8, 2));
