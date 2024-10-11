@@ -3,7 +3,7 @@ Classic Java Snake Game 🐍🎮
 This is a classic Snake game made in Java, where you control a snake to collect food and avoid hitting walls or its own tail.
 Features:
  * Classic gameplay mechanics for endless fun!
- * Threaded inpuut handling for responsive gameplay
+ * Threaded input handling for responsive gameplay
 How to play:
  * Clone or download the repository.
  * Open a terminal and navigate to the project directory.
@@ -14,4 +14,4 @@ This is a great project for practicing:
 
 Feel free to reach out to me with any questions!
 
-Creator: DemogorgonXD
+Creator: Ofir Dotan
